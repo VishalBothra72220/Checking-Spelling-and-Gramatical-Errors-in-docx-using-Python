@@ -6,7 +6,7 @@ Application=win32.gencache.EnsureDispatch('Word.Application')
 Application.Visible=False
 # Code for searching Spelling and Grammatical Errors
 try:
-    file=r"C:\Users\lenovo\Desktop\BotMantra\Task\highlights.docx"
+    file=r"C:\Users\lenovo\Desktop\BotMantra\Task\Check.docx"
     ActiveDocument=Application.Documents.Open(file)
     se=ActiveDocument.SpellingErrors.Count
     ge=ActiveDocument.GrammaticalErrors.Count
